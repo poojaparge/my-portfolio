@@ -9,231 +9,234 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>Pooja Portfolio</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="poojaparge, JavaScript, HTML, CSS, FrontEnd, Backend, Full Stack" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Pooja | Portfolio" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
+  <!-- Put here your site title -->
+  <title>Pooja Portfolio</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="poojaparge, JavaScript, HTML, CSS, FrontEnd, Backend, Full Stack" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="Pooja | Portfolio" />
 
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: false });
+  </script>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+  <!-- Remove this script once you setup your custom portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Pooja Parge</span>
-          <br />
-          I'm a Developer.
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
-        </p>
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hi, my name is <span class="text-color-main">Pooja Parge</span>
+        <br />
+        I'm a Consultant.
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/profile.jpg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I am an experienced Consultant coming from a technical background. I
+              am passionate about solving challenging problems and delivering
+              robust solutions.
+            </p>
+            <p class="about-wrapper__info-text">
+              I have worked across large-scale, private and public
+              sector implementation projects. My drive to look at the holistic big
+              picture, combined with experience working with end-to-end lifecycle
+              projects, has enabled me to be a better Business Analyst.
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume"
+                href="https://drive.google.com/drive/folders/1EIdCfrjeG9PWwp_Fs2UeRjWv8DSZ5Fma?usp=sharing">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">
-          About me
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpg"
-                alt="Profile Image"
-              />
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Quote Generator</h3>
+              <div>
+                <p class="mb-4">
+                  This project uses a REST API to fetch inspirational quotes and display them. You can keep generating
+                  new quotes and also share to twitter. The project is also mobile responsive.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://poojaparge.github.io/quote-generator/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/poojaparge/quote-generator">
+                Source Code
+              </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                I am an experienced Technology Consultant but a Developer at heart. I am passionate about solving challenging problems and designing robust solutions.
-              </p>
-              <p class="about-wrapper__info-text">
-                My drive to look at the holistic big picture has enabled me to experience various aspects of implementation projects - from Business Analysis to Technical Build. This has equipped me to be a better Software Engineer.
-              </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="https://drive.google.com/file/d/1iRf8fgWSifpTMZD5odebk7SL8TAkZow9/view?usp=sharing">
-                  View Resume
-                </a>
-              </span>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <div data-tilt class="thumbnail rounded">
+                <img class="img-fluid" src="./assets/quoteGenerator.png" />
+              </div>
             </div>
           </div>
         </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Binary Calculator</h3>
+              <div>
+                <p class="mb-4">
+                  This is a Hackerrank challenge that focuses on DOM Manipulation, Event Handlers and Math functions
+                  using JavaScript. This approach enables the logic to stay hidden and not available via Page Source.
+                  Also, this is a reliable Binary Calculator for basic operations.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://poojaparge.github.io/binary-calculator/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/poojaparge/binary-calculator">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <div data-tilt class="thumbnail rounded">
+                <img class="img-fluid" src="./assets/binaryCalculator.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Clockwise Button Rotator</h3>
+              <div>
+                <p class="mb-4">
+                  This is a Hackerrank challenge that focuses on DOM Manipulation and Event Handlers using JavaScript.
+                  This approach enables the logic to stay hidden and not available via Page Source.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://poojaparge.github.io/clockwise-button-rotation/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/poojaparge/clockwise-button-rotation">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <div data-tilt class="thumbnail rounded">
+                <img class="img-fluid" src="./assets/clockRotator.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
       </div>
-    </section>
-    <!-- /END About Section -->
+    </div>
+  </section>
+  <!-- /END Projects Section -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Quote Generator</h3>
-                <div>
-                  <p class="mb-4">
-                    This project uses a REST API to fetch inspirational quotes and display them. You can keep generating new quotes and also share to twitter. The project is also mobile responsive.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://poojaparge.github.io/quote-generator/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/poojaparge/quote-generator">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/quoteGenerator.png" />
-                  </div>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Binary Calculator</h3>
-                <div>
-                  <p class="mb-4">
-                    This is a Hackerrank challenge that focuses on DOM Manipulation, Event Handlers and Math functions using JavaScript. This approach enables the logic to stay hidden and not available via Page Source. Also, this is a reliable Binary Calculator for basic operations.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://poojaparge.github.io/binary-calculator/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/poojaparge/binary-calculator">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/binaryCalculator.png" />
-                  </div>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Clockwise Button Rotator</h3>
-                <div>
-                  <p class="mb-4">
-                    This is a Hackerrank challenge that focuses on DOM Manipulation and Event Handlers using JavaScript. This approach enables the logic to stay hidden and not available via Page Source.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://poojaparge.github.io/clockwise-button-rotation/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/poojaparge/clockwise-button-rotation">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/clockRotator.png" />
-                  </div>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
-
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            Send me an email to have a chat
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:poojaparge@gmail.com"
-            >Email
-          </a>
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/poojaparge/" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="https://github.com/poojaparge" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
-          </a>
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contact
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          Send me an email to have a chat
         </p>
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:poojaparge@gmail.com">Email
+        </a>
       </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/poojaparge/" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a href="https://github.com/poojaparge" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
+
+      <!-- If you give me some credit, will be huge for me :) -->
+      <p class="footer__text">
+        © 2021 - Template developed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
+        </a>
+      </p>
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+</body>
+
 </html>
